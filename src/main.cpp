@@ -20,7 +20,8 @@ int led_Pin=13;
 void setup() {
 
     // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
+    int state=digitalRead(touch_Pin);
+
 
     // TODO 4:
     // Configure touch pin as INPUT
