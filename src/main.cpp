@@ -17,13 +17,12 @@ void setup() {
 
 
     Serial.begin(9600);
+    pinMode(touch_Pin,INPUT);
+    pinMode(led_Pin,OUTPUT);
 
 
     // TODO 4:
-    // Configure touch pin as INPUT
 
-    // TODO 5:
-    // Print system initialization message
 }
 
 void loop() {
