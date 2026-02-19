@@ -23,13 +23,14 @@ void setup() {
 void loop() {
     int state=digitalRead(touch_Pin);
 
+    if(state==0){
+        digitalWrite(13,HIGH);
+        Serial.println("DETECTED!!");}
 
-    // TODO 7:
-    // If touch detected (HIGH)
-    //     Print "Touch Detected"
-    // Else
-    //     Print "No Touch"
+    else{
+        digitalWrite(13,LOW);
+        Serial.println("NOT DETECTED!!");
+    }
 
-    // TODO 8:
-    // Add small delay (200–500ms)
+
 }
