@@ -10,17 +10,13 @@
  * and displays structured output via Serial Monitor.
  */
 
- // TODO 1:
 int touch_Pin=12;
-
- // TODO 2:
-
 int led_Pin=13;
 
 void setup() {
 
-    // TODO 3:
-    int state=digitalRead(touch_Pin);
+
+    Serial.begin(9600);
 
 
     // TODO 4:
