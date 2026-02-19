@@ -15,20 +15,14 @@ int led_Pin=13;
 
 void setup() {
 
-
     Serial.begin(9600);
     pinMode(touch_Pin,INPUT);
     pinMode(led_Pin,OUTPUT);
-
-
-    // TODO 4:
-
-}
+    }
 
 void loop() {
+    int state=digitalRead(touch_Pin);
 
-    // TODO 6:
-    // Read digital value from touch sensor
 
     // TODO 7:
     // If touch detected (HIGH)
